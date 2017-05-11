@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+## Configures and calls coqproject.sh (https://github.com/dwoos/coqproject)
+
+## Configuration options for coqproject.sh
+DIRS=(src/Appli src/Calc src/Core src/Prop)
+NAMESPACE_src_Appli=""
+NAMESPACE_src_Calc=""
+NAMESPACE_src_Core=""
+NAMESPACE_src_Prop=""
+source coqproject.sh
